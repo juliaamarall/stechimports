@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+header{
+display: flex; 
+justify-content: space-evenly;
+text-align: center;
+align-items: center;
+padding: 10px;
+background-color: black;
+color: white;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#linhabranca {
+    background-color: black;
+    
+}
+
+#linhabranca hr{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    
+}
+
+#bloco0{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ padding: 0px 20px 0px 20px;
+}
+
+#card01{
+    width: 600px;
+}
+#card01 > #new{
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    color: #ffffff6c;
+}
+
+#card01 > h1{
+   margin-bottom: 10px;
+}
+
+#card01 > p{
+   width: 500px;
+   line-height: 23px;
+ }
+
+ .btn{
+    margin: 20px;
+    background-color:#f2740588 ;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+ }
+
